@@ -22,6 +22,7 @@ public class Routes {
     public static final String LOGIN = "/login";
     public static final String ROOT = "/";
 
+    public static final String AUTHORIZED_THIRD_PARTIES = "/RetailCustomer/{retailCustomerId}/AuthorizedThirdParties";
     public static final String DATA_CUSTODIAN_API_FEED = "/api/feed";
     public static final String DATA_CUSTODIAN_AUTHORIZATION = "/espi/1_1/resource/Authorization/{AuthorizationID}";
     public static final String DATA_CUSTODIAN_HOME = "/custodian/home";
