@@ -58,6 +58,7 @@ public class Routes {
     public static final String METER_READINGS_SHOW = "/RetailCustomer/{retailCustomerId}/UsagePoint/{usagePointId}/MeterReading/{meterReadingId}/show";
     public static final String OAUTH_ACCESS = "/oauth/confirm_access";
     public static final String OAUTH_ERROR = "/oauth/error";
+    public static final String OAUTH_TOKEN = "/oauth/token";
     public static final String RETAIL_CUSTOMER_HOME = "/RetailCustomer/{retailCustomerId}/home";
     public static final String TERMS_OF_SERVICE = "/TermsOfService";
     public static final String USAGE_POINTS_FEED = "/RetailCustomer/{retailCustomerId}/UsagePoint/feed";
@@ -70,7 +71,7 @@ public class Routes {
 
     // patterns for RESTful root access to management entities
     //
-    public static final String ROOT_SERVICE_STATUS = "/espi/1_1/authorize/ReadServiceStatus";
+    public static final String ROOT_SERVICE_STATUS = "/espi/1_1/resource/ReadServiceStatus";
     public static final String ROOT_AUTHORIZATION_COLLECTION = "/espi/1_1/resource/Authorization";
     public static final String ROOT_AUTHORIZATION_MEMBER = "/espi/1_1/resource/Authorization/{authorizationId}";
     public static final String ROOT_SUBSCRIPTION_COLLECTION = "/espi/1_1/resource/Subscription";
